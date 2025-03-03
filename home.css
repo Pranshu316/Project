@@ -1,0 +1,122 @@
+/* Global Styles */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f7fc; /* Light grey background */
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Center content vertically */
+}
+
+/* Header Banner */
+.header-banner {
+  background-color: #d32f2f; /* Darker red */
+  color: #ffffff;
+  text-align: center;
+  padding: 10px 20px; /* Reduced padding for a shorter banner */
+  font-size: 20px; /* Smaller font size */
+  font-weight: bold;
+  border-bottom: 4px solid #b30000;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  width: 100%; /* Ensure it spans across the width */
+  height: auto; /* Allow the height to adjust based on content */
+  line-height: 1.4; /* Adjust line height for better spacing */
+}
+
+/* Form Container */
+.form-container {
+  background-color: #ffffff; /* White background */
+  border-radius: 10px;
+  padding: 30px;
+  max-width: 1000px; /* Increased max-width for a more spacious layout */
+  margin: 20px auto;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border: 1px solid #e0e0e0;
+}
+
+/* Heading */
+h2 {
+  text-align: center;
+  color: #d32f2f;
+  font-size: 24px;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+/* Form Styles */
+form {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Two-column grid layout */
+  gap: 20px; /* Increased gap between columns */
+  padding: 0;
+}
+
+/* Form Input and Labels */
+form div {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+label {
+  font-size: 16px;
+  font-weight: 500;
+  color: #333;
+}
+
+input[type="number"] {
+  width: 100%; /* Full width for inputs */
+  padding: 10px 12px; /* Reduced padding */
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+  background-color: #fafafa;
+  color: #333;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+input[type="number"]:focus {
+  border-color: #d32f2f;
+  outline: none;
+  box-shadow: 0 0 8px rgba(211, 47, 47, 0.3);
+}
+
+/* Submit Button */
+button {
+  width: 100%;
+  padding: 12px 15px;
+  background-color: #d32f2f; /* Red button */
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #b30000; /* Darker red on hover */
+}
+
+button:focus {
+  outline: none;
+  box-shadow: 0 0 5px rgba(211, 47, 47, 0.3);
+}
+
+/* Prediction Message */
+.prediction-message {
+  background-color: #f1f1f1;
+  color: #333;
+  padding: 12px;
+  margin-top: 20px;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  font-size: 16px;
+  font-weight: 600;
+  border: 1px solid #e0e0e0;
+}
